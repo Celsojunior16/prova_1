@@ -1,0 +1,410 @@
+
+
+:root{
+  --color_01: #430A5D ; 
+  --color_02: #5F374B;
+  --color_03: #8C6A5D;
+  --color_04: #EEE4B1;
+
+}
+
+
+*{  margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.fundo{
+  background-color: var(--color_04);
+}
+
+
+
+html{
+  overflow-x: hidden;
+}
+nav{
+    background-color: var(--color_03) ;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav div{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+nav div ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-right: 25px;
+}
+nav ul li a{
+    color: var(--color_01);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: var(--color_02);
+    transition: 0.5s;
+}
+nav img{
+    border-radius: 50%;
+    width: 64px
+
+}
+
+
+.imagem-header{
+    height:80vh;
+    background-image: url(./exercitando_na_natureza.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--color_04);
+    display: flex;
+    align-items: center;
+    }
+    .titulo{
+    
+    
+  
+    margin-left: 15vw;
+    text-align: center;
+    
+    
+    
+    
+    
+    
+    }
+    .titulo_1{       
+       color: var(--color_01);
+       text-shadow: 1px 1px 1px var(--color_01);
+       font-size:120px;
+       font-weight: 100;
+       line-height: 0.8;
+    
+    }
+    
+    
+    .titulo_2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 0.8;
+    
+    }
+    .main{
+        background-color: var(--color_04);
+        
+        
+        
+        }
+
+   .introducao{
+    background-color: var(--color_04);
+    color: var(--color_01);
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+
+
+
+
+
+   }
+
+   .carrosel{
+display: flex;
+justify-content: space-between;
+
+  }
+ .carousel-item img{
+     width: 1200px;
+     height: 800px;
+
+
+
+
+
+ }
+  .exercicio{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    }
+
+
+
+  .exercicio2{
+    border: 1px solid var(--color_04);
+    width: 23%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./trilhas-2.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+    }
+    
+    
+    
+    #exer_01{
+  
+      background-position: left;
+       
+     }
+    
+     #exer_02{
+      background-image: url(./escalada.jpg);
+      background-position: center;
+     
+     
+     }
+     #exer_03{
+      background-image: url(./mountain-bike.jpg);
+      background-position: right;
+     
+     
+     }
+     footer {
+      background-color: var(--color_03);
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .footer-content h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .footer-content p {
+      font-size: 14px;
+      margin: 10px 0;
+    }
+    
+    .social-media a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    
+    .social-media a:hover {
+      color: var(--color_02);
+    }
+    
+    .footer-bottom {
+      margin-top: 20px;
+      font-size: 12px;
+    }
+    
+
+  .titulo_saude{
+    color: var(--color_01);
+  }
+    
+.cor{
+    color: var(--color_01);
+}
+
+
+
+  .h_2{
+    background-color: var(--color_04);  
+    color: var(--color_01);
+  }
+
+  .h_d{
+    width: 80%;
+    margin: 0 auto;
+    padding: 80px 0px;
+  }
+
+  .h_d_1{
+    color: var(--color_01);
+    font-size: 50px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+  }
+
+  .h_d_3{
+    font-size: 50px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+
+  .dobra_01{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 45px;
+ }
+
+ 
+.dobra_02 h2{
+  margin-bottom: 40px;
+  }
+  
+  .container-img-2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px; 
+  }
+  
+  .container-img-2 figure {
+    width: 30%; 
+    padding: 10px; 
+  }
+  
+  .container-img-2 figure img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 5px; 
+  }
+
+  .center{
+   display: flex;
+
+  }
+
+  body {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 991px) {
+    /* Estilo para tablets */
+    .introducao, .exercicio, .footer-content {
+      width: 100%;
+      padding: 20px;
+    }
+    .exercicio2 {
+      width: 48%;
+      height: 30vh;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* Estilo para celulares */
+    .exercicio {
+      flex-direction: column;
+      align-items: center;
+    }
+    .exercicio2 {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+    .titulo_1 {
+      font-size: 60px;
+    }
+    .carousel-item img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .introducao,
+    .footer-content {
+      width: 90%;
+      padding: 20px;
+    }
+    
+    .exercicio2 {
+      width: 48%;
+      height: 30vh;
+    }
+  
+    .titulo_1 {
+      font-size: 80px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .exercicio2 {
+      width: 100%;
+      height: 30vh;
+    }
+    
+    .titulo_1 {
+      font-size: 60px;
+    }
+    
+    .container-img-2 figure {
+      width: 100%; /* Para telas pequenas, cada imagem ocupa 100% da largura */
+    }
+  }
+   
+  
+  @media (max-width: 991px) {
+    /* Ajustes para tablets */
+    .header-content h1 {
+      font-size: 2.5rem;
+    }
+  
+    .main {
+      max-width: 90%;
+      padding: 20px;
+    }
+  
+    .exercicio {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .exercicio2 {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .container-img-2 figure {
+      width: 48%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* Ajustes para dispositivos móveis */
+    nav {
+      flex-direction: column;
+    }
+  
+    .header-content h1 {
+      font-size: 2rem;
+    }
+  
+    .header-content h2 {
+      font-size: 1.2rem;
+    }
+  
+    .exercicio {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .container-img-2 figure {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  }
